@@ -12,7 +12,7 @@ class RequestClient(object):
         :param kwargs: The option of request connection.
             api_key: The public key applied from Binance.
             secret_key: The private key applied from Binance.
-            server_url: The URL name like "https://api.binance.com".
+            url: The URL name like "https://api.binance.com".
         """
         api_key = None
         secret_key = None
